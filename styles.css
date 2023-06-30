@@ -1,94 +1,92 @@
 /* Estilos generales */
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
+}
   
-  .container {
+.container {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
-  }
+}
   
-  /* Encabezado */
+/* Encabezado */
   
-  header {
+header {
     background-color: #f56d16;
     padding: 10px;
-  }
+}
   
-  nav ul {
+nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-  }
+}
   
-  nav ul li {
+nav ul li {
     margin: 0 10px;
-  }
+}
   
-  nav ul li a {
+nav ul li a {
     color: #fff;
     text-decoration: none;
-  }
+}
   
   /* Sección Inicio */
   
-  #inicio {
+#inicio {
     background-color: #f2f2f2;
     padding: 40px;
     text-align: center;
-  }
+}
   
-  .hero {
+.hero {
     max-width: 600px;
     margin: 0 auto;
-  }
+}
   
-  .hero h1 {
+.hero h1 {
     font-size: 36px;
     color: #333;
-  }
+}
   
-  .hero p {
+.hero p {
     font-size: 18px;
     color: #666;
-  }
+}
   
   /* Sección Menú */
   
-  #menu {
+#menu {
     background-color: #fff;
     padding: 40px;
     text-align: center;
-  }
+}
   
-  .menu-items {
+.menu-items {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-  }
+}
   
-  .menu-item {
+.menu-item {
     width: 300px;
     margin: 20px;
     padding: 20px;
     background-color: #f2f2f2;
-  }
+}
   
-  .menu-item h3 {
+.menu-item h3 {
     font-size: 24px;
     color: #333;
-  }
-  
-  .menu-item p {
+}
+.menu-item p {
     font-size: 14px;
     color: #666;
-  }
+}
 .imagenes {
     width: 300px;
 }
@@ -98,43 +96,43 @@ body {
     background-color: #f2f2f2;
     padding: 80px 0;
     text-align: center;
-  }
+}
   
-  #reservas form {
+#reservas form {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-  }
+}
   
-  #reservas label {
+#reservas label {
     flex: 0 0 100%;
     margin-bottom: 10px;
     font-weight: bold;
     color: #333;
-  }
+}
   
-  #reservas input[type="text"],
-  #reservas input[type="email"],
-  #reservas input[type="date"],
-  #reservas input[type="number"] {
+#reservas input[type="text"],
+#reservas input[type="email"],
+#reservas input[type="date"],
+#reservas input[type="number"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     box-sizing: border-box;
-  }
+}
   
-  #reservas input[type="submit"] {
+#reservas input[type="submit"] {
     background-color: #f56d16;
     color: #fff;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-  }  
+}  
   
   /* Estilos adicionales */
   
-  .btn {
+.btn {
     display: inline-block;
     padding: 10px 20px;
     background-color: #f56d16;
@@ -142,20 +140,20 @@ body {
     text-decoration: none;
     border-radius: 4px;
     transition: background-color 0.3s ease;
-  }
+}
   
-  .btn:hover {
+.btn:hover {
     background-color: #f78b48;
-  }
+}
   
-  footer {
+footer {
     background-color: #f56d16;
     padding: 20px 0;
     color: #fff;
     text-align: center;
-  }
+}
   
   /* Estilos del texto del footer */
-  footer p {
+footer p {
     margin: 0;
-  }
+}

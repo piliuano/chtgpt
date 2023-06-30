@@ -9,7 +9,7 @@ function mostrarConfirmacionReserva(nombre, fecha, personas) {
   }
   
   // Función para manejar el envío del formulario de reserva
-  function manejarEnvioReserva(event) {
+function manejarEnvioReserva(event) {
     event.preventDefault(); // Evitar el envío del formulario por defecto
   
     // Obtener los valores del formulario
@@ -17,8 +17,8 @@ function mostrarConfirmacionReserva(nombre, fecha, personas) {
     var email = document.getElementById("email").value;
     var fecha = document.getElementById("fecha").value;
     var personas = document.getElementById("personas").value;
-  
-    // Validar los campos del formulario
+    
+        // Validar los campos del formulario
     if (nombre === "" || email === "" || fecha === "" || personas === "") {
       alert("Por favor, completa todos los campos del formulario.");
       return;
@@ -35,6 +35,6 @@ function mostrarConfirmacionReserva(nombre, fecha, personas) {
   }
   
   // Evento de escucha para el envío del formulario de reserva
-  var formularioReserva = document.getElementById("reserva-formulario");
-  formularioReserva.addEventListener("submit", manejarEnvioReserva);
+var formularioReserva = document.getElementById("reserva-formulario");
+formularioReserva.addEventListener("submit", manejarEnvioReserva);
   
